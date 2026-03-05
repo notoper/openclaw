@@ -1,0 +1,10 @@
+spec_version: "0.1.0"
+name: workspace-researcher
+version: 0.1.0
+description: Gitclaw agent for workspace-researcher
+model:
+  preferred: "openai:gpt-4o-mini"
+  fallback: []
+tools: [cli, read, write, memory]
+runtime:
+  max_turns: 50

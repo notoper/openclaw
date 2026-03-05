@@ -1,0 +1,33 @@
+# 敏感文件
+.env
+*.env
+*.token
+*.tokens
+.secrets
+*.pem
+*.key
+
+# OpenClaw特定
+agents/*/sessions/
+transcripts/
+*.jsonl
+media/
+.gitagent/
+.openclaw/
+*/.openclaw/
+memory/
+
+# Python虚拟环境
+tavily-env/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+node_modules/
